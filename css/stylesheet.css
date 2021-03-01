@@ -1,16 +1,18 @@
+@import "https://www.leafal.io/assets/css/reset.css";
+
 /*Navbar*/
 .navbar {
+  background-color: red;
   color: black;
   list-style: none;
-  text-align: center;
-  padding: 20px 0 20px 0;
+  padding: 30px 0 30px 0;
   width: 100%;
   overflow: hidden;
 }
 
 .navbar > ul > li {
   display: inline-block;
-  padding: 0 25px 0 25px
+  padding: 0 25px 0 25px;
 }
 
 .navbar > ul > li > a {
@@ -20,8 +22,6 @@
   border-style: solid;
   background-color: grey;
   border-color: lightgrey;
-  border-radius: 5px;
-  padding: 5px 10px 5px 10px;
   font-family: Literata;
   opacity: 60%;
   transition: 0.3s;
