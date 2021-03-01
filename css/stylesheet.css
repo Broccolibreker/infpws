@@ -1,0 +1,28 @@
+/*Navbar*/
+.navbar {
+  color: black;
+  list-style: none;
+  text-align: center;
+  padding: 20px 0 20px 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.navbar > ul > li {
+  display: inline-block;
+  padding: 0 25px 0 25px
+}
+
+.navbar > ul > li > a {
+  text-decoration: none;
+  color: black;
+  border-width: 1px;
+  border-style: solid;
+  background-color: grey;
+  border-color: lightgrey;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  font-family: Literata;
+  opacity: 60%;
+  transition: 0.3s;
+}
