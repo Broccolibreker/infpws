@@ -70,11 +70,25 @@ p {
 
 /*Artikel*/
 .links {
-  background-color: grey;
-  width: 30%;
-  padding: 20px;
+  width: 200px;
+  padding: 0 0 0 20px;
   float: left;
   display: inline-block;
+}
+
+#kopje {
+  padding: 20px;
+  background-color: slategrey;
+  text-decoration: none;
+  color: white;
+  width: 200px;
+  float: left;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+
+#kopje:hover {
+  background-color: teal;
 }
 
 .links > ul {
@@ -84,22 +98,37 @@ p {
   font-size: 18px;
 }
 
-#kopje{
-  text-decoration: none;
-  color: black;
-  transition: 0.3s;
-}
-
-#kopje:hover {
-  color: #004d99;
-}
-
 .midden {
   background-color: lightgrey;
   float: left;
-  width: calc(100% - 30% - 80px);
+  width: calc(100% - 240px - 20px);
   padding: 20px;
   display: inline-block;
+  min-width: 244px;
+  min-height: 252px;
+}
+
+#tekstvak {
+  display: inline-block;
+}
+
+#microsoft {
+  width: calc(40% - 20px);
+  margin-left: 20px;
+  float: right;
+  display: inline-block;
+}
+
+.onder {
+  width: 100%;
+  padding-top: 20px;
+  max-height: 492px;
+  display: inline-block;
+}
+
+.onder > img {
+  width: calc(0.5 * (100% - 240px - 0px));
+  margin: 20px 20px 20px 0;
 }
 
 .footer {
@@ -110,7 +139,6 @@ p {
   width: 100%;
   display: inline-block;
   padding-top: 50px;
-  color: black;
 }
 
 .footer > ul {
@@ -136,4 +164,11 @@ p {
 #ondertekst {
   text-decoration: none;
   color: #004d99;
+}
+
+@media screen and (max-width:1000px) {
+  #afb1, #afb2 {
+      width: calc(100% - 220px);;
+      min-width: 244px;
+  }
 }

@@ -2,13 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 .wrapper {
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 body {
-  font-family: 'Open Sans';
+  font-family: 'arial';
   font-size: 18px;
+  background-color: #53c653;
 }
 
 p {
@@ -16,23 +17,16 @@ p {
   font-weight: bold;
 }
 
-.logobalk {
-  font-weight: bold;
-  font-size: 32px;
-  text-align: left;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
 #osglogo {
-  height: 92px;
+  height: 100px;
 }
 
 #titel {
   font-weight: bold;
-  font-size: 32px;
-  text-align: right;
+  font-size: 25px;
   float: right;
+  margin: 0 0 25px 0;
+  color: #004d99;
 }
 
 /*Navbar*/
@@ -40,39 +34,40 @@ p {
   color: black;
   list-style: none;
   overflow: hidden;
-  border-bottom-style: solid;
-  border-bottom-color: darkslategrey;
-  border-bottom-width: 1px;
-  margin-bottom: 10px;
+  height: 100px;
+  padding: 10px 0 10px 0;
+}
+
+.navbar > ul {
+  width: calc(100% - 284px - 50px);
+  float: right;
+  padding-top: 36px;
+  padding-bottom: 36px;
+  margin-left: 50px;
 }
 
 .navbar > ul > li {
   display: inline-block;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  margin-right: 50px;
 }
 
 .navbar > ul > li > a {
-  font-size: 20px;
+  font-size: 25px;
   text-decoration: none;
-  color: black;
-  font-family: 'Open Sans';
+  color: white;
+  font-family: 'arial';
   font-style: normal;
-  opacity: 60%;
-  transition: 0.3s;
-  padding: 25px;
-  margin-right: 25px;
+  text-decoration: underline;
 }
 
 .navbar > ul > li > a:hover {
-  background-color: #d9d9d9;
+  color: #004d99;
 }
 
 /*Artikel*/
 .links {
-  background-color: grey;
-  width: 30%;
-  padding: 20px;
+  width: 20%;
+  padding: 20px 0 20px 0;
   float: left;
   display: inline-block;
 }
@@ -82,24 +77,47 @@ p {
   overflow: hidden;
   color: blue;
   font-size: 18px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-#kopje{
-  text-decoration: none;
-  color: black;
-  transition: 0.3s;
-}
-
-#kopje:hover {
+#kopje {
+  border-style: solid;
+  border-color: #ffcc80;
+  border-width: 2px;
+  border-radius: 5px;
+  background-image: linear-gradient(to top, #ffcc80 , #ffebcc);
+  padding: 5px;
+  float: right;
+  margin-bottom: 10px;
+  margin-right: 10px;
   color: #004d99;
+  text-decoration: none;
+  min-width: calc(100% - 27px);
+}
+
+#computer {
+  width: 100%;
+}
+
+#www {
+  width: 45%;
+  box-shadow: 5px 5px 10px black;
+  margin-bottom: 10px;
+  margin-right: 50px;
 }
 
 .midden {
-  background-color: lightgrey;
+  background-color: #ffebcc;
   float: left;
-  width: calc(100% - 30% - 80px);
-  padding: 20px;
+  width: calc(100% - 20%);
   display: inline-block;
+  margin-bottom: 50px;
+  border-radius: 5px;
+}
+
+#middentekst {
+  padding: 20px;
 }
 
 .footer {
@@ -107,10 +125,6 @@ p {
   padding-bottom: 50px;
   color: white;
   list-style: none;
-  width: 100%;
-  display: inline-block;
-  padding-top: 50px;
-  color: black;
 }
 
 .footer > ul {
@@ -123,7 +137,7 @@ p {
 #footerlink {
   font-size: 18px;
   text-decoration: none;
-  color: black;
+  color: white;
   font-family: 'arial';
   font-style: normal;
   text-decoration: underline;

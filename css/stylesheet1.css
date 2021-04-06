@@ -1,0 +1,108 @@
+@import "https://www.leafal.io/assets/css/reset.css";
+
+body {
+  background-color: lightgrey;
+}
+
+/*.wrapper {
+  margin-left: 100px;
+  margin-right: 100px;
+}*/
+
+p {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logobalk {
+  font-weight: bold;
+  font-size: 32px;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#osglogo {
+  height: 92px;
+  margin-left: 100px;
+}
+
+#titel {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: right;
+  float: right;
+  color: black;
+  margin-right: 100px;
+}
+
+/*Navbar*/
+.navbar {
+  background-color: teal;
+  color: black;
+  list-style: none;
+  overflow: hidden;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navbar > ul {
+  margin-left: 100px;
+ padding-top: 10px;
+}
+
+.navbar > ul > li {
+  display: inline-block;
+}
+
+.navbar > ul > li > a {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  font-family: 'Open Sans';
+  font-style: normal;
+  opacity: 80%;
+  padding: 10px;
+  margin-right: 25px;
+}
+
+.navbar > ul > li > a:hover {
+  background-color: blue;
+}
+
+/*Artikel*/
+.links {
+  margin-left: 100px;
+  width: 30%;
+  display: inline-block;
+  margin-top: 50px;
+}
+
+#uitleg {
+  color: black;
+  font-size: 18px;
+}
+
+.links > ul {
+  list-style: none;
+  overflow: hidden;
+  color: blue;
+  font-size: 18px;
+  margin-bottom: 100px;
+}
+
+#amazon {
+  height: 396px;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
+
+.midden {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  display: inline-block;
+  width: auto;
+}
